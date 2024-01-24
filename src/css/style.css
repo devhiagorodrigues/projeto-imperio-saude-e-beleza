@@ -1,0 +1,130 @@
+/*FONTES*/
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Comic+Neue:wght@300;400;700&family=Klee+One:wght@400;600&family=Montserrat:wght@200;400;500;600;700;800;900&family=Raleway:wght@200;300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap');
+
+
+/*CONFIGURAÇÃO PADRÃO*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*ROOT*/
+:root {
+    /*fontes*/
+    --bebas-neue: 'Bebas Neue', sans-serif;
+    --montserrat: 'Montserrat', sans-serif;
+    --raleway: 'Raleway', sans-serif;
+    --roboto: 'Roboto', sans-serif;
+    --comic-neue: 'Comic Neue', cursive;
+    --klee-one: 'Klee One', cursive;
+
+    /*cores*/
+    --rosa-escuro: #FF477E;
+    --rosa-medio: #FF5C8A;
+    --rosa-medio-claro: #FF7096;
+    --rosa-claro: #FF85A1;
+    --rosa-mais-claro: #F9BEC7;
+
+    --branco: #fff;
+    --preto: #000;
+    --cinza-clarinho: #F0F0F0;
+}
+
+/*ESTILIZAÇÃO GERAL*/
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: var(--cinza-clarinho);
+    font: normal 1em/1.5 var(--montserrat);
+}
+
+header {
+    background-color: var(--branco);
+}
+
+header nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+header nav ul li {
+    margin-right: 20%;
+}
+
+header nav ul li a {
+    color: var(--rosa-escuro);
+    font: bold 1.2em var(--montserrat);
+}
+
+header nav ul li a:hover {
+    color: var(--rosa-claro);
+    transition: .2s;
+}
+
+/*FAZER O FOOTER AQUI*/
+
+
+
+
+
+
+main {
+    width: 90vw;
+    margin: auto;
+}
+
+.container-banner {
+    display: flex;
+    align-items: center;
+    margin-top: 2%;
+    background-color: var(--rosa-escuro);
+}
+
+.titulo-banner00 {
+    text-align: center;
+    margin-left: 40px;
+}
+
+.titulo-banner01 {
+    font: bold 3.5em var(--roboto);
+    color: var(--rosa-mais-claro);
+}
+
+.p-banner-titulo {
+    font: normal 2em var(--montserrat);
+    color: var(--branco);
+}
+
+.esquerdo00 {
+    display: flex;
+    margin-top: 5%;
+    margin-left: 5%;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+.esquerdo01 {
+    background-color: var(--rosa-medio-claro);
+    padding: 6%;
+    border-radius: 50%;
+}
+
+.tit-esq {
+    font: bolder 3em var(--roboto);
+    color: var(--rosa-mais-claro);
+    border-bottom: var(--rosa-mais-claro);
+}
+
+.p-esq {
+    font: normal 1.2em var(--montserrat);
+    color: var(--branco);
+}
